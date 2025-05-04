@@ -1,0 +1,14 @@
+Query basis
+    - object creation
+    - filter() and exclude()
+    - all() and get()
+    - slicing
+    - using ForeignKey attribute values
+    - lte and gte
+    - (i)exact, (i)contain, (i)startswith, (i)endswith
+    - django.db.models F()
+    - django.db.models Q()
+    - values() and values_list()
+    - order_by()
+    - __in
+    - exists()
