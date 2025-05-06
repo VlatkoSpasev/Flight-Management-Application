@@ -24,4 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', FlightAppViews.index, name='index'),
     path('details/<flight_id>', FlightAppViews.details, name='details'),
+    path('contact/', FlightAppViews.contact, name='contact'),
+    path('add-flight/', FlightAppViews.add_flight, name='add-flight'),
+    path('edit-flight/<flight_id>', FlightAppViews.edit_flight, name='edit-flight'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
